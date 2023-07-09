@@ -1,0 +1,158 @@
+=================================================
+Q1. What are the Conditional Operators in Java?
+-------------------------------------------------
+Conditional operators in Java are used to compare two expressions and return a boolean value. The following are the conditional operators in Java:
+
+== : This operator checks if two expressions are equal and returns true if they are equal, and false otherwise.
+!= : This operator checks if two expressions are not equal and returns true if they are not equal, and false otherwise.
+< : This operator checks if the left expression is less than the right expression and returns true if it is less, and false otherwise.
+<= : This operator checks if the left expression is less than or equal to the right expression and returns true if it is less than or equal, and false otherwise.
+> : This operator checks if the left expression is greater than the right expression and returns true if it is greater, and false otherwise.
+>= : This operator checks if the left expression is greater than or equal to the right expression and returns true if it is greater than or equal, and false otherwise.
+
+=========================================================================
+Q2. What are the types of operators based on the number of operands?
+-------------------------------------------------------------------------
+Operators in Java can be classified into four types based on the number of operands they take:
+
+Unary operators: Unary operators take a single operand. For example, the ++ operator is a unary operator that increments the operand by 1.
+Binary operators: Binary operators take two operands. For example, the + operator is a binary operator that adds two operands.
+Ternary operators: Ternary operators take three operands. For example, the ?: operator is a ternary operator that evaluates two expressions and returns the result of the first expression if the condition is true, and the result of the second expression if the condition is false.
+Special operators: Special operators do not take any operands. For example, the instanceof operator is a special operator that checks if an object is an instance of a particular class.
+
+=======================================================
+Q3.What is the use of Switch case in Java programming?
+-------------------------------------------------------
+The switch statement in Java is used to perform different actions based on the value of a variable. The switch statement is a multiway branching statement, which means that it can branch to different parts of the program depending on the value of the variable.
+
+The syntax of the switch statement is :
+
+switch (variable) {
+  case value1:
+    break;
+  case value2:
+    break;
+  default:
+    // code to be executed if variable is not equal to any of the values
+}
+
+==================================================================================
+Q4.What are the conditional Statements and use of conditional statements in Java?
+----------------------------------------------------------------------------------
+Conditional statements in Java are used to control the flow of execution of a program. The most common conditional statements in Java are the if, else, and if-else-if statements.
+
+The if statement is used to execute a block of code if a condition is true. The else statement is used to execute a block of code if the condition is false. The if-else-if statement is used to execute a block of code if one of several conditions is true.
+
+The syntax of the if statement is as follows:
+
+if (condition) {
+  // code to be executed if condition is true
+}
+
+The syntax of the else statement is as follows:
+
+if (condition) {
+  // code to be executed if condition is true
+} else {
+  // code to be executed if condition is false
+}
+
+The syntax of the if-else-if statement is as follows:
+
+if (condition1) {
+  // code to be executed if condition1 is true
+} else if (condition2) {
+  // code to be executed if condition2 is true
+} else {
+  // code to be executed if condition1 and condition2 are false
+}
+
+=======================================================
+Q5.What is the syntax of if else statement?
+-------------------------------------------------------
+The syntax of the if else statement in Java is as follows:
+
+if (condition) {
+  // code to be executed if condition is true
+} else {
+  // code to be executed if condition is false
+}
+
+=======================================================
+Q6.How do you compare two strings in Java?
+-------------------------------------------------------
+
+There are two ways to compare two strings in Java:
+
+Using the equals() method: The equals() method compares two strings lexicographically. This means that it compares the characters in the strings one by one, starting from the beginning.
+Using the compareTo() method: The compareTo() method compares two strings lexicographically and returns an integer value. The value 0 is returned if the strings are equal, a negative value is returned if the first string is less than the second string, and a positive value is returned if the first string is greater than the second string.
+Here is an example of how to compare two strings using the equals() method:
+
+String str1 = "Hello";
+String str2 = "Hello";
+
+boolean isEqual = str1.equals(str2);
+System.out.println(isEqual); // true
+Use code with caution. Learn more
+Here is an example of how to compare two strings using the compareTo() method:
+
+String str1 = "Hello";
+String str2 = "Hello";
+
+int comparisonResult = str1.compareTo(str2);
+System.out.println(comparisonResult); // 0
+Use code with caution. Learn more
+
+=========================================================
+Q7.What is Mutable String in Java Explain with an example
+---------------------------------------------------------
+
+A mutable string is a string that can be changed after it is created. In Java, strings are immutable. This means that once a string is created, it cannot be changed.
+
+However, there are some ways to create mutable strings in Java. One way is to use the StringBuilder class. The StringBuilder class is a mutable string builder that can be used to create and modify strings.
+
+Here is an example of how to create a mutable string using the StringBuilder class:
+
+StringBuilder stringBuilder = new StringBuilder("Hello");
+stringBuilder.append(" World");
+System.out.println(stringBuilder); // Hello World
+
+
+=======================================================
+Q8.Write a program to sort a String Alphabetically
+-------------------------------------------------------
+Here is a program to sort a string alphabetically:
+
+Java
+public class SortString {
+
+    public static void main(String[] args) {
+        String str = "Hello World";
+        char[] chars = str.toCharArray();
+        Arrays.sort(chars);
+        System.out.println(new String(chars)); // World Hello
+    }
+}
+
+================================================================================
+Q9.Write a program to check if the letter 'e' is present in the word 'Umbrella'.
+--------------------------------------------------------------------------------
+Here is a program to check if the letter 'e' is present in the word 'Umbrella':
+
+Java
+public class CheckLetter {
+
+    public static void main(String[] args) {
+        String str = "Umbrella";
+        boolean isPresent = str.contains("e");
+        System.out.println(isPresent); // true
+    }
+}
+
+
+====================================================================
+Q10.Where exactly is the string constant pool located in the memory
+--------------------------------------------------------------------
+The string constant pool is located in the heap. The heap is a region of memory that is used to store objects that are created at runtime. The string constant pool is a special area of the heap that is used to store strings that are used by the Java program.
+
+The string constant pool is important because it can help to improve the performance of Java programs. This is because the strings in the string constant pool are shared by all of the objects in the program. This means that if two objects have the same string, they will not need to store the string twice in memory.

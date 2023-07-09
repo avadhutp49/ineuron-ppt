@@ -1,0 +1,92 @@
+Q1. What is the difference between Compiler and Interpreter?
+--------------------------------------------------------------
+A compiler is a program that converts source code into machine code, which can then be executed by the computer. An interpreter, on the other hand, reads source code line by line and executes it immediately.
+The main difference between a compiler and an interpreter is that a compiler converts the entire source code into machine code before it is executed, while an interpreter converts and executes the source code line by line. This means that compilers are generally faster than interpreters, but they also require more memory.
+
+=========================================================
+Q2. What is the difference between JDK, JRE, and JVM?
+-------------------------------------------------------
+JDK, JRE, and JVM are all related to Java, but they have different purposes.
+
+JDK stands for Java Development Kit. It is a software development kit that contains everything you need to develop Java applications, including the Java compiler, the Java runtime environment, and other tools.
+JRE stands for Java Runtime Environment. It is a software environment that allows you to run Java applications. It includes the Java virtual machine (JVM), the Java class libraries, and other components.
+JVM stands for Java Virtual Machine. It is an abstract machine that executes Java bytecode. It is responsible for converting bytecode into machine code that can be executed by the computer.
+===========================================================
+Q3. How many types of memory areas are allocated by JVM?
+-------------------------------------------------------
+The JVM allocates five types of memory areas:
+
+Method area: This area stores the Java class files and the corresponding metadata.
+Heap: This area stores objects that are created at runtime.
+Stack: This area stores local variables and method parameters.
+PC register: This register stores the bytecode of the current instruction.
+Native method stack: This area stores the native method arguments and local variables.
+
+=========================================================
+Q4. What is JIT compiler?
+-------------------------------------------------------
+JIT stands for Just-In-Time compiler. It is a compiler that compiles Java bytecode into machine code at runtime. This can improve the performance of Java applications by reducing the amount of time it takes to execute bytecode.
+
+=========================================================
+Q5. What are the various access specifiers in Java?
+-------------------------------------------------------
+Java has four access specifiers:
+
+public: This specifier makes the member accessible to all classes.
+protected: This specifier makes the member accessible to subclasses of the current class.
+default: This specifier makes the member accessible to classes in the same package.
+private: This specifier makes the member accessible only to the current class.
+
+=========================================================
+Q6. What is a compiler in Java?
+-------------------------------------------------------
+The Java compiler is a program that converts Java source code into bytecode. Bytecode is a platform-independent format that can be executed by the Java virtual machine (JVM).
+
+The Java compiler is part of the Java Development Kit (JDK). When you compile a Java program, the compiler first checks the source code for errors. If there are no errors, the compiler then converts the source code into bytecode.
+
+=========================================================
+Q7. Explain the types of variables in Java?
+-------------------------------------------------------
+There are four types of variables in Java:
+
+Local variables: These variables are declared within a method and are only accessible within that method.
+Instance variables: These variables are declared within a class and are accessible to all methods in the class.
+Class variables: These variables are declared within a class and are accessible to all methods in the class, as well as to subclasses of the class.
+Static variables: These variables are declared within a class and are accessible to all methods in the class, as well as to subclasses of the class.
+
+=========================================================
+Q8. What are the Datatypes in Java?
+-------------------------------------------------------
+Java has eight primitive datatypes:
+
+byte: This datatype stores a signed integer value between -128 and 127.
+short: This datatype stores a signed integer value between -32,768 and 32,767.
+int: This datatype stores a signed integer value between -2,147,483,648 and 2,147,483,647.
+long: This datatype stores a signed integer value between -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807.
+float: This datatype stores a floating-point value between 1.4E-45 and 3.4028235
+
+=========================================================
+Q9. What are the identifiers in Java?
+-------------------------------------------------------
+In Java, an identifier is a name that is used to identify a variable, method, class, or other element in a Java program. Identifiers can be made up of letters, numbers, and the underscore character (_). The first character of an identifier must be a letter or the underscore character.
+
+There are some rules that identifiers must follow:
+
+They must start with a letter or the underscore character (_).
+They can contain letters, numbers, and the underscore character (_).
+They cannot be keywords.
+They cannot be the same as the names of built-in classes or methods.
+
+=========================================================
+Q10. Explain the architecture of JVM
+-------------------------------------------------------
+The Java Virtual Machine (JVM) is a specification that defines a runtime environment for Java bytecode. The JVM is responsible for executing Java bytecode and providing other services to Java applications.
+
+The JVM architecture is divided into five main components:
+
+Class loader: The class loader is responsible for loading Java class files into the JVM.
+Runtime data area: The runtime data area is where the JVM stores all of the data that is needed to execute a Java program. This includes the Java stack, the heap, and the method area.
+Instruction set interpreter: The instruction set interpreter is responsible for interpreting Java bytecode.
+Garbage collector: The garbage collector is responsible for managing memory in the JVM. It automatically deallocates memory that is no longer being used by a Java program.
+Execution engine: The execution engine is responsible for executing Java bytecode. It is responsible for calling methods, executing instructions, and managing the flow of control in a Java program.
+The JVM architecture is designed to be portable. This means that Java bytecode can be executed on any platform that has a JVM implemented. This makes Java a very portable language.
