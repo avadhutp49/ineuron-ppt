@@ -1,0 +1,23 @@
+import java.util.Arrays;
+
+public class MinScore {
+    public static int minScore(int[] nums, int k) {
+        int n = nums.length;
+        Arrays.sort(nums);
+
+        int minVal = nums[0] + k;
+        int maxVal = nums[n - 1] - k;
+
+        int minScore = Math.max(0, maxVal - minVal);
+
+        return minScore;
+    }
+
+    public static void main(String[] args) {
+        int[] nums = {1};
+        int k = 0;
+
+        int minScore = minScore(nums, k);
+        System.out.println("Minimum score: " + minScore);
+    }
+}

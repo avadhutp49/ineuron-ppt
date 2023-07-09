@@ -1,0 +1,25 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class MaxCandies {
+    public static int maxCandies(int[] candyType) {
+        int n = candyType.length;
+        int maxLimit = n / 2;
+        
+        Set<Integer> distinctCandies = new HashSet<>();
+        
+        for (int candy : candyType) {
+            distinctCandies.add(candy);
+        }
+        
+        int distinctCount = distinctCandies.size();
+        
+        return Math.min(distinctCount, maxLimit);
+    }
+    
+    public static void main(String[] args) {
+        int[] candyType = {1, 1, 2, 2, 3, 3};
+        int maxDistinctCandies = maxCandies(candyType);
+        System.out.println("Max distinct candies Alice can eat: " + maxDistinctCandies);
+    }
+}

@@ -1,0 +1,24 @@
+import java.util.Arrays;
+
+public class MaximumProductOfThreeNumbers {
+
+  public static int findMaximumProductOfThreeNumbers(int[] nums) {
+    int[] max = new int[3];
+    Arrays.fill(max, Integer.MIN_VALUE);
+
+    for (int num : nums) {
+      for (int i = 0; i < 3; i++) {
+        if (num > max[i]) {
+          max[i] = num;
+        }
+      }
+    }
+
+    return max[0] * max[1] * max[2];
+  }
+
+  public static void main(String[] args) {
+    int[] nums = {1, 2, 3};
+    System.out.println(findMaximumProductOfThreeNumbers(nums)); // 6
+  }
+}
