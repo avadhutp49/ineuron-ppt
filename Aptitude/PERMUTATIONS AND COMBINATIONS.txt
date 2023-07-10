@@ -1,0 +1,44 @@
+1. A round table conference is to be held among 25 delegates from 25 countries. In how many ways can they be seated if two particular delegates are always to sit together?
+Ans: B. 2! × 23!
+
+2. In how many ways can 5 boys and 4 girls be seated in a row, so that they alternate?
+Ans: C. 4! × 5!
+
+3. In how many ways can the letters of the word 'LEADER' be arranged?
+Ans: D. 720
+
+4. A box contains 2 white balls, 3 black balls and 4 red balls. In how many ways can 3 balls be drawn from the box, if at least one black ball is to be included in the draw?
+Ans: C. 64
+
+5.  How many numbers greater than a million can be formed with the digits 2,3,0,4,3,3,3 ?
+Ans: D. 620
+
+6. A gentleman has got 6 sorts of note papers, 7 different ink-stands and 4 different pens. In how many ways can he begin to write a letter?
+Ans: A. 168
+
+7. How many different words can be formed from the alphabets of the word SCISSORS?
+Ans: B. 1680
+
+8.  A team of 8 students goes on an excursion, in two cars, of which one can seat 5 and the other only 4. In how many ways can they travel?
+Ans: D. 3920
+
+9.  How many ways can 10 letters be posted in 5 post boxes, if each of the post boxes can take more than 10 letters?
+Ans: A. 510
+
+10. In how many ways can 15 people be seated around two round tables with seating capacities of 7 and 8 people?
+Ans: C. (15C8) * 6! * 7!
+
+11. In how many ways can the letters of the word EDUCATION be rearranged so that the relative position of the vowels and consonants remain the same as in the word EDUCATION?
+Ans: A. 9!/4
+
+12.  There are 2 brothers among a group of 20 persons. In how many ways can the group be arranged around a circle so that there is exactly one person between the two brothers?
+Ans: A. 2 * 19!
+
+13.A selection is to be made for one post of principal and two posts of vice-principal amongst the six candidates called for the interview only two are eligible for the post of principal while they all are eligible for the post of vice-principal. The number of possible combinations of selectees is:
+Ans: C. 18
+
+14. In how many different ways can five friends sit for a photograph of five chairs in a row?
+Ans: A. 120 ways
+
+15. In a room there are 12 bulbs of the same wattage, each having a separate switch. The number of ways to light the room with different amounts of illumination is
+Ans: A. 2^12-1
