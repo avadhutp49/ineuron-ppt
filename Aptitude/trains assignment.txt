@@ -1,0 +1,122 @@
+1. Two trains of length 125 meters and 115 meters are running on parallel tracks. When they run in the same direction the faster train crosses the slower train in 30 seconds and when they run in opposite direction, they cross each other in 10 seconds. What is the speed of each train?
+18,6
+16,8
+14,7
+20,5
+
+Ans: Speed of each train: 18 km/hr and 6 km/hr.
+
+2. Two trains of length 140 meters and 166 meters are moving towards each other on parallel tracks at a speed of 50 km/hr and 60 km/hr respectively. In what time the trains will cross each other from the moment they meet?
+A. 12 seconds
+B. 9 seconds
+C. 11 seconds
+D. A10 seconds
+
+Ans: Time taken for the trains to cross each other: 9 seconds.
+
+3. Two trains running in opposite direction cross a man standing on the platform in 36 seconds and 26 seconds respectively. The trains cross each other in 30 seconds. What is the ratio of their speeds?
+A. 4/6
+B. 3/9
+C. 4/8
+D. 2/4
+
+Ans: Ratio of speeds of the two trains: 4:8.
+
+4.  A train of length 240 meters crosses a pole in 12 seconds. In what time it will cross a platform of length 400 meters?
+A. 35 seconds
+B. 37 seconds
+C. 39 seconds
+D. 33 seconds
+
+Ans: Time taken to cross a platform of length 400 meters: 37 seconds.
+
+5. A train moving at 108 km/hr crosses a platform in 30 seconds. Then it crosses a man running at 12 km/hr in the same direction of train in 9 seconds. What is the length of train and platform?
+A. 220 & 600
+B. 200 & 620
+C. 240 & 660
+D. 250 & 640
+
+Ans: Length of train and platform: 240 meters and 660 meters
+
+6. Two trains are moving towards each other with speeds 40 km/hr and 45 km/hr from different stations P and Q. When they meet the second train from station Q has covered 20 km more distance than the first train which starts from station P. What is the distance between the two stations?
+A. 300 km
+B. 320 km
+C. 340 km
+D. 360 km
+
+Ans: Distance between the two stations: 320 km.
+
+7. Time is taken by two trains running in opposite directions to cross a man standing on the platform in 28 seconds and 18 seconds respectively. It took 26 seconds for the trains to cross each other. What is the ratio of their speeds?
+A. 2:3
+B. 3:2
+C. 3:1
+D. 4:1
+
+Ans: Ratio of speeds of the two trains: 2:3.
+
+8. Two, trains, one from Howrah to Patna and the other from Patna to Howrah, start simultaneously. After they meet, the trains reach their destinations after 9 hours and 16 hours respectively. The ratio of their speeds is:
+
+A. 2:3
+B. 4:3
+C. 6:7
+D. 9:16
+
+Ans: Ratio of speeds of the two trains: 9:16.
+
+9. A train moves past a telegraph post and a bridge 264 m long in 8 seconds and 20 seconds respectively. What is the speed of the train?
+
+A. 69.5 km/hr
+B. 70 km/hr
+C. 79 km/hr
+D. 79.2 km/hr
+
+Ans: Speed of the train: 69.5 km/hr.
+
+10. Two trains of equal length , running in opposite directions , pass a pole in 18 and 12 seconds. The trains will cross each other in 
+A. 14.4 sec         
+B. 15.5 sec
+C. 18.8 sec         
+D. 20.2 sec
+
+Ans: Time taken for the trains to cross each other: 14.4 seconds.
+
+11. A 270 metres long train running at the speed of 120 kmph crosses another train running in opposite direction at the speed of 80 kmph in 9 seconds. What is the length of the other train?
+A. 230 m             
+B. 240 m
+C. 260 m             
+D. 320 m
+
+Ans: Length of the other train: 320 meters.
+
+12. Two stations P and Q are 110 km apart on a straight track. One train starts from P at 7 a.m. and travels towards Q at 20 kmph. Another train starts from Q at 8 a.m. and travels towards P at a speed of 25 kmph. At what time will they meet?
+A. 10:30
+B. 10:00
+C. 8.45
+D. 9:30
+
+Ans: Time at which the trains will meet: 10:30 AM.
+
+13. A train covers a distance between station A and station B in 45 min. If the speed of the train is reduced by 5 km/hr, then the same distance is covered in 48 min. what is the distance between the stations A and B?
+A. 80
+B. 45
+C. 60
+D. 32
+
+Ans: Distance between stations A and B: 60 km.
+
+14. A train travels the distance between stations P and Q at a speed of 126 km/h, while in the opposite direction it comes back at 90 km/h. Another train travels the same distance at the average speed of the first train. The time taken by the second train to travel 525 km is:
+A. 5 hours
+B. 4 hours
+C. 4 hours 20 min
+D. 5 hours 20 min
+
+Ans : Time taken by the second train to travel 525 km: 4 hours.
+
+15. A train without stoppage travels with an average speed of 72 km/h and with stop page, it travels with an average speed of 60 km/h. For how many minutes does the train stop on an average per hour?
+A. 6
+B. 8
+C. 10
+D. 12
+
+Ans: Minutes the train stops on average per hour: 10 minutes.
+
