@@ -1,0 +1,23 @@
+1. Write two quadratic equations such that the sum of roots equals twice the product of roots?
+Ans:
+Two quadratic equations with sum of roots equal to twice the product of roots:
+Equation 1: x^2 - 3x + 2 = 0
+Equation 2: 2x^2 - 5x + 2 = 0
+
+2. 2x+3y=12 has (2,3) as its solution or not?
+Ans:
+Solution (2, 3) satisfies the equation 2x + 3y = 12.
+
+3. Find possible coordinates of (x,y) such that point (1,1), (2,2) & (x,y) are collinear?
+Ans:
+The possible coordinates (x, y) that are collinear with (1, 1) and (2, 2) lie on the line connecting these two points. Hence, any coordinate (x, y) where x = y satisfies the condition. For example, (3, 3), (4, 4), (5, 5), etc.
+
+
+4. Find out all possible values of a & b for which the ratio of a^3+b^3 to a^3-b^3 is 1:1 a,b are real numbers.
+Ans:
+Possible values of a and b for which the ratio of a^3 + b^3 to a^3 - b^3 is 1:1:
+Any pair of real numbers (a, b) where a = -b satisfies the condition.
+
+5. The triangle area formed by the lines y=x, y-axis and y=3 line will be?
+Ans:
+The triangle area formed by the lines y = x, y-axis, and y = 3 is 4.5 square units.
