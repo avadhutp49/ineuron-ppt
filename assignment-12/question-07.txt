@@ -1,0 +1,22 @@
+public void insertAlternate(ListNode first, ListNode second) {
+    if (first == null || second == null) {
+        return;
+    }
+
+    ListNode firstCurr = first;
+    ListNode secondCurr = second;
+    ListNode firstNext, secondNext;
+
+    while (firstCurr != null && secondCurr != null) {
+        firstNext = firstCurr.next;
+        secondNext = secondCurr.next;
+
+        firstCurr.next = secondCurr;
+        secondCurr.next = firstNext;
+
+        firstCurr = firstNext;
+        secondCurr = secondNext;
+    }
+
+    second = secondCurr;
+}

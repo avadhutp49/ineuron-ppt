@@ -1,0 +1,34 @@
+public static boolean isPalindrome(Node head) {
+  if (head == null) {
+    return true;
+  }
+
+  Node slow = head;
+  Node fast = head;
+
+  while (fast != null && fast.next != null) {
+    slow = slow.next;
+    fast = fast.next.next;
+  }
+
+ 
+  Node prev = null;
+  while (slow != null) {
+    Node next = slow.next;
+    slow.next = prev;
+    prev = slow;
+    slow = next;
+  }
+
+ 
+  Node first = head;
+  while (prev != null) {
+    if (first.data != prev.data) {
+      return false;
+    }
+    first = first.next;
+    prev = prev.next;
+  }
+
+  return true;
+}
