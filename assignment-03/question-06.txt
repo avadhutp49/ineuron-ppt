@@ -1,0 +1,16 @@
+public class SingleNumber {
+
+  public static int singleNumber(int[] nums) {
+    int seen = 0;
+    for (int num : nums) {
+      seen ^= num;
+    }
+    return seen;
+  }
+
+  public static void main(String[] args) {
+    int[] nums = {2, 2, 1};
+    int singleNumber = singleNumber(nums);
+    System.out.println("The single number is: " + singleNumber);
+  }
+}
