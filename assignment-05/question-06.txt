@@ -1,0 +1,13 @@
+public static List<Integer> findDuplicates(int[] nums) {
+  List<Integer> result = new ArrayList<>();
+  int[] seen = new int[nums.length];
+
+  for (int num : nums) {
+    seen[num - 1]++;
+    if (seen[num - 1] == 2) {
+      result.add(num);
+    }
+  }
+
+  return result;
+}

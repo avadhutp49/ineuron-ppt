@@ -1,0 +1,8 @@
+public static int staircase(int n) {
+  int k = 0;
+  while (n > 0) {
+    n -= k + 1;
+    k++;
+  }
+  return k - 1;
+}

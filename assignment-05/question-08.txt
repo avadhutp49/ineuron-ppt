@@ -1,0 +1,14 @@
+public static int[] findOriginalArray(int[] changed) {
+  Set<Integer> seen = new HashSet<>();
+  int[] result = new int[changed.length / 2];
+  for (int num : changed) {
+    if (seen.contains(num * 2)) {
+      result[seen.size() - 1] = num;
+      seen.remove(num * 2);
+    } else {
+      seen.add(num);
+    }
+  }
+
+  return result;
+}

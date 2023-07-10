@@ -1,0 +1,17 @@
+public int arrangeCoins(int n) {
+        long left = 1;
+        long right = n;
+        long k;
+        while (left <= right) {
+            k = left + (right - left) / 2;
+            long curr = k * (k + 1) / 2;
+            if (curr == n) {
+                return (int) k;
+            } else if (curr < n) {
+                left = k + 1;
+            } else {
+                right = k - 1;
+            }
+        }
+        return (int) right;
+    }

@@ -1,0 +1,33 @@
+import java.util.*;
+
+public class FindDistinctNumbers {
+
+  public static List<List<Integer>> findDistinctNumbers(int[] nums1, int[] nums2) {
+    Set<Integer> seen = new HashSet<>();
+    List<Integer> result1 = new ArrayList<>();
+    List<Integer> result2 = new ArrayList<>();
+
+    for (int num : nums1) {
+      if (!seen.contains(num)) {
+        result1.add(num);
+        seen.add(num);
+      }
+    }
+
+    for (int num : nums2) {
+      if (!seen.contains(num)) {
+        result2.add(num);
+        seen.add(num);
+      }
+    }
+
+    return Arrays.asList(result1, result2);
+  }
+
+  public static void main(String[] args) {
+    int[] nums1 = {1, 2, 3};
+    int[] nums2 = {2, 4, 6};
+    List<List<Integer>> result = findDistinctNumbers(nums1, nums2);
+    System.out.println(result);
+  }
+}
