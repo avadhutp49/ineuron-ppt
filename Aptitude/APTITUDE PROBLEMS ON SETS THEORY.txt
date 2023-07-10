@@ -1,0 +1,62 @@
+1. In the Mindworkzz club all the members participate either in the Tambola or the Fete. 320 participate in the Fete, 350 participate in the Tambola and 220 participate in both. How many members does the club have?
+Ans: C. 440
+
+2. There are 20000 people living in Defence Colony, Gurgaon. Out of them 9000 subscribe to Star TV Network and 12000 to Zee TV Network. If 4000 subscribe to both, how many do not subscribe to any of the two?
+Ans: C. 3000
+
+3. In the Indian athletic squad sent to the Olympics, 21 athletes were in the triathlon team; 26 were in the pentathlon team; and 29 were in the marathon team. 14 athletes can take part in triathlon and pentathlon; 12 can take part in marathon and triathlon; 15 can take part in pentathlon and marathon; and 8 can take part in all the three games. How many were in the marathon team only?
+Ans: B. 10
+          
+4. 5% of the passengers who boarded Guwahati- New Delhi Rajdhani Express on 20 th February, 2002 do not like coffee, tea and ice cream and 10% like all the three. 20% like coffee and tea, 25% like ice cream and coffee and 25% like ice cream and tea. 55% like coffee, 50% like tea and 50 % like ice cream. The number of passengers who like only coffee is greater than the passengers who like only ice cream by
+Ans:  B. 15        
+
+5. In the given Venn diagram, A denotes mangoes, B denotes bananas, C denotes apples, and the numbers in each section represent the number of persons who like those fruits. How many persons like only bananas?
+Ans:  B. 7
+
+6.In a group of 75 students,12 like only cabbage,15 like only cauliflower,21 like only carrot,12 like both carrot and cabbage,13 like only capsicum and 2 like both capsicum and 2 like both capsicum and cauliflower. What is the percentage of students that do not like cabbage?
+Ans: C. 24
+
+7. In the given diagram, the circle stands for ‘farmers’, the rectangle stands for ‘rural’, and the triangle stands for ‘rich’, The numbers given in the different segments represent the number of persons of that category.
+Ans: D. 3
+
+8. How many rural people are either farmers or rich but NOT both?
+Ans: A. 28
+
+9. In a batch of 68 students, 23 students do not participate in any of the two games i.e. cricket and squash. 17 students participate in cricket only, 24 students participate in cricket and squash. How many students participate in squash only?
+Ans: D. 34
+
+9.Among 160 players in a tournament, 57 did not participate in any of the three games, i.e. Cricket, Hockey and Badminton. A total of 37 players participated in only one game,10 players participated in both Cricket and Hockey but not in Badminton, 9 players participated in both Hockey and Badminton but not in Cricket, and 13 players participated in both Cricket and Badminton but not in Hockey. How many students participated in all the three games
+Ans: C. 20 
+
+10.In a class of 100 students, every student has passed in one or more of the three subjects, i.e. History, Economics and English. Among all the students, 24 students have passed in English only, 14 students have passed in History only, 11 students have passed in both English and Economics only, and 12 students have passed in both English and History only. A total of 50 students have passed in History. If only 5 students have passed in all three subjects, then how many students have passed in Economics only?
+Ans: A. A
+
+11.Select the Venn diagram that best illustrates the relationship between the following classes. Graduates, Teachers, Literates
+Ans: 
+
+12. Find the solution set of the equation x2+x+2=0 in roster form
+Ans: B. {}
+
+13. 60 students participated in one or more of the three competitions, i.e. Quiz, Extempore and Debate. A total of 22 students participated either in Quiz only or in Extempore only. 4 students participated in all three competitions. A total of14 students participated in any of the two competitions only. How many students participated in Debate only?
+Ans: C. 14
+
+14. Identify the diagram that best represents the relationship among the given classes. Country, State, City
+Ans: A. 1
+
+15. Convert the A= {3,-3}into set-builder form
+Ans: B. A = {x: x is an integer and x^2 - 9 = 0}
+
+16.  Set P comprises all multiples of 4 less than 500. Set Q comprises all odd multiples of 7 less than 500, Set R comprises all multiples of 6 less than 500. How many elements are present in P∪Q∪R ?
+Ans: B. 243 
+
+17. Of 60 students in a class, anyone who has chosen to study maths elects to do physics as well. But no one does maths and chemistry, 16 do physics and chemistry. All the students do at least one of the three subjects and the number of people who do exactly one of the three is more than the number who do more than one of the three. What are the maximum and minimum number of people who could have done Chemistry only?
+Ans: A. 40, 0
+
+18.  Of the members of three athletic teams in a school 21 are in the cricket team, 26 are in the hockey team and 29 are in the football team. Among them, 14 play hockey and cricket, 15 play hockey and football, and 12 play football and cricket. Eight play all the three games. The total number of members in the three athletic teams is
+Ans: B. 76
+
+19.  The set of intelligent students in a class is
+Ans: (d) Not a well-defined collection
+
+20.  In a class of 30 pupils, 12 take needle work, 16 take physics and 18 take history. If all the 30 students take at least one subject and no one takes all three then the number of pupils taking 2 subjects is
+Ans: C. 8 
