@@ -1,0 +1,29 @@
+public static void rearrange(int[] arr) {
+        int n = arr.length;
+        int positiveIndex = -1;
+
+        // Find the index of the first positive element
+        for (int i = 0; i < n; i++) {
+            if (arr[i] >= 0) {
+                positiveIndex = i;
+                break;
+            }
+        }
+
+        if (positiveIndex == -1 || positiveIndex == 0 || positiveIndex == n - 1) {
+            // If there is no positive element or all positive elements are at the ends, no rearrangement is required.
+            return;
+        }
+
+        int negativeIndex = positiveIndex - 1;
+
+        while (negativeIndex >= 0 && positiveIndex < n) {
+            // Swap positive and negative elements
+            int temp = arr[negativeIndex];
+            arr[negativeIndex] = arr[positiveIndex];
+            arr[positiveIndex] = temp;
+
+            negativeIndex -= 2;
+            positiveIndex += 1;
+        }
+    }
