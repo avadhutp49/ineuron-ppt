@@ -1,0 +1,7 @@
+
+
+const reversedArr = arr.reduce((accumulator, currentValue, currentIndex, array) => {
+  const startIndex = array.length - currentIndex - 1;
+  accumulator[startIndex] = currentValue;
+  return accumulator;
+}, []);
