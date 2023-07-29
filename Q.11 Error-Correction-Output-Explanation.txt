@@ -1,0 +1,26 @@
+# in reduce() method initial value for the accumulator in absent.
+# it has to be the containing properties for evens and odds as arrays
+
+# Corrected code:
+
+const numbers = [1, 2, 3, 4, 5];
+
+const result = numbers.reduce((acc, num) => {
+  if (num % 2 === 0) {
+    acc.evens.push(num);
+  } else {
+    acc.odds.push(num);
+  }
+  return acc;
+}, { evens: [], odds: [] });
+
+console.log(result);
+
+
+#output:
+
+{ evens: [2, 4], odds: [1, 3, 5] }
+
+#Explanation:
+
+The evens property of the result object contains the even numbers in the array, and the odds property contains the odd numbers in the array.
