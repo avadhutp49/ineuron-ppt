@@ -1,0 +1,10 @@
+#Output:
+1
+3
+2
+
+
+#The first console.log() statement will log the number 1 to the console immediately
+# "4" is logged immediately after "1".
+# "3" is logged with a very short delay almost instantaneous.
+# "2" is logged after a delay of 1000 milliseconds (1 second).
